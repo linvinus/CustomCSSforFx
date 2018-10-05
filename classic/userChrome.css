@@ -95,9 +95,9 @@
 
 /* COLOR VARIABLES FOR DEFAULT BROWSER THEME ONLY - MAIN UI - [only use one at a time] **********/
 /* [!] set own colors for tabs & toolbars inside 'color_variables.css' or use available presets */
-@import "./config/color_variables.css"; /**/  /* <- default 'grey' colors */
+/* @import "./config/color_variables.css"; /**/  /* <- default 'grey' colors */
 /* @import "./config/color_variables_aero.css"; /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
-/* @import "./config/color_variables_classic-grey.css"; /**/  /* <- 'classic grey' colors (Win Classic) */
+@import "./config/color_variables_classic-grey.css"; /**/  /* <- 'classic grey' colors (Win Classic) */
 /* @import "./config/color_variables_fx3.css"; /**/  /* <- 'Firefox 3-like' blueish colors */
 /* @import "./config/color_variables_transparent.css"; /**/  /* <- (semi-)'transparent' colors */
 /* @import "./config/color_variables_aeroglass.css"; /**/  /* <- 'AeroGlass' colors / Win10+Glass8 fix can be found in 'toolbars' area */
