@@ -21,4 +21,18 @@
   overflow: hidden !important;
 }
 
+.tabbrowser-tab:not([pinned])
+{
+  max-width: 200px !important;
+  min-width: 10px !important;
+}
+
+.tabbrowser-tab:not([fadein])
+{
+ max-width: 1px !important;
+ min-width: 1px !important;
+ max-width: 1px;
+ min-width: 1px;
+}
+
 /**/
